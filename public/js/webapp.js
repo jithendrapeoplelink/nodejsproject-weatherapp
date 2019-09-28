@@ -34,7 +34,7 @@ e.preventDefault()
 
 const loc = search.value
 
-fetch('http://localhost:5000/weather?add='+loc).then((response)=>{
+fetch('/weather?add='+loc).then((response)=>{
 
 response.json().then((data)=>{
 
